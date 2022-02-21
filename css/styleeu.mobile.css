@@ -40,6 +40,7 @@ nav{
     justify-content: space-evenly;
     flex-flow: wrap;
     flex-direction: column;
+    width: 450px;
     
 
 }
@@ -48,7 +49,7 @@ nav{
     display: flex;
     flex-flow: wrap;
     flex-direction: column;
-    margin: 2rem 2rem 1rem 2rem;
+    margin: 2rem 1rem 1rem 2rem;
 }
 
 
@@ -124,16 +125,14 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
-  
+    margin: 0px;
 
 }
 
 .cartemaps .carte{
     width: 350px;
     height: 300px;
-    margin: 13rem 0rem 2rem 0rem;
+    margin: 13rem 0rem 0rem 0rem;
    
 }
 
@@ -141,14 +140,15 @@ form{
 
 
 .textecarte p{
-    margin: 17rem 1rem 3rem 1rem;
+    margin: 2rem 1rem 3rem 1rem;
     
 }
 
 
 
-
-
+.separatorcarte{
+    border-left: none;
+}
 
 
 /* ****** */
@@ -159,7 +159,7 @@ footer{
     flex-flow: wrap;
     align-items: center;
     padding: 2rem 1rem 2rem 1rem;
-    min-width: 450px;
+    min-width: 418px;
     min-height: 200px;
 }
 
