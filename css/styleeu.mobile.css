@@ -125,8 +125,9 @@ form{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 0px;
-
+    flex-wrap: wrap;
+    margin-right: 4rem;
+    
 }
 
 .cartemaps .carte{
@@ -136,11 +137,16 @@ form{
    
 }
 
+.cartemaps .carte img{
+    width: 400px;
+    height: 350px;
+   
+}
 
 
 
 .textecarte p{
-    margin: 2rem 1rem 3rem 1rem;
+    margin: 0rem 1rem 10rem 1rem;
     
 }
 
