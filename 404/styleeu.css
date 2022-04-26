@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Alegreya Sans', sans-serif;
+
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.logo a{
+    display: flex;
+    flex-flow: row;
+    width: 130px;
+    height: 60px;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+    background-color: rgb(43, 42, 42);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    
+}
+
+nav ul{
+   display: flex;
+
+}
+
+nav ul  li{
+    list-style: none;
+    padding: 21px;
+    font-size: 23px;
+    color: white;
+}
+
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+
+nav ul li:hover{
+    background: rgb(71, 71, 71);
+    color: white;
+}
+
+
+.background1{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: url(/images/pex.jpg);
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+
+
+.background1 .logo2 img{
+    height:120px;
+ 
+}
+
+.background1 .logo2{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.separator{
+    border-radius: 15px;
+    margin-top: 0.8rem;
+    height: 7px;
+    background:rgb(43, 42, 42);
+    
+}
+
+
+section h3{
+    margin-top: 1.5rem;
+    font-size: 1.7rem;
+}
+
+.logo2 .btn-primary{
+    background: white;
+    color: #222;
+    margin-top: 25px;
+    border-radius:30px;
+    padding: 15px 25px; /* vertical horizontal */ 
+    display: inline-block;
+    font-weight: 700; /* font-weight permet de définir la graisse (le noveau de gras) */
+    font-size: 13px;
+    text-decoration: none;
+
+}
+
+.logo2 .btn-primary:hover{
+    background: rgb(71,71,71);
+    color: white;
+
+}
+
+.feature i{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.content{
+    display: flex;
+    flex-flow: row;
+    justify-content:space-evenly;
+    text-align: center;
+    margin: 50px 30px 50px 30px;
+    color: rgb(43, 42, 42);
+    line-height: 1.8rem;
+    
+}
+
+.content p{
+    font-size: 1rem;
+}
+
+
+
+.histoire{
+    background-color: #222;
+    color: rgba(240, 234, 234, 0.719);
+    height: 450px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    
+
+}
+
+.histoire .history h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+
+.histoire .image img{
+    width: 550px;
+    height: 400px;
+}
+
+.histoire .history{
+    width: 600px;
+}
+
+.separator2{
+    border: solid 0.3px rgba(234, 234, 240, 0.719);
+    margin-bottom: 1rem;
+}
+
+.Collab {
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+    color: #222;
+}
+
+
+.Collab h2{
+    font-family: 'Indie Flower', cursive;
+    font-weight: 70px;
+    font-size: 3rem;
+    
+}
+
+.collab{
+    margin: 20px 0px 20px 0px;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+   
+.official{
+    margin: 2rem 25rem 0rem 25rem;
+    display: block;  
+    border-radius: 50% 20% / 10% 40%;
+    background-color:rgb(218, 213, 213);
+}
+
+.official h1{
+    padding-top: 1rem;
+    font-family:'Indie Flower', cursive;
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
+
+
+.carte{
+    background-color: #222;
+    color: rgba(240, 234, 234, 0.719);
+    height: 450px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+}
+
+.carte .image img{
+    width: 550px;
+    height: 400px;
+}
+
+.separator3{
+    border: solid 0.3px rgba(234, 234, 240, 0.719);
+    margin-bottom: 1rem;
+}
+
+.carte .cartetxt{
+
+    width: 600px;
+}
+.carte .cartetxt h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+/*  Conatct   */
+
+
+
+form h1{
+    margin-bottom: 1.5rem;
+}
+
+form{
+    padding: 180px 0px 100px 0px;
+    min-height: 100vh;
+    line-height:2rem;
+
+}
+
+.contact-form-container{
+    max-width: 600px;
+    margin: auto; /* en faisant margin auto, le bloc s'est centré */
+}
+
+.contact-form-container label{
+    display: block;
+    font-weight: 700;
+}
+
+.contact-form-container input, textarea{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 4px ;
+    border: 1px solid rgba(221, 221, 221, 0.856);
+    background-color:rgba(241, 241, 241, 0.856);
+}
+
+.contact-form-container textarea{
+    min-height: 100px;
+}
+
+button.btn-secondary{
+    background: #222;
+    color: white;
+    margin-top: 25px;
+    border-radius:30px;
+    padding: 15px 25px; /* vertical horizontal */ 
+    display: inline-block;
+    font-weight: 700; /* font-weight permet de définir la graisse (le noveau de gras) */
+    font-size: 13px;
+    text-decoration: none;
+}
+
+button.btn-secondary:hover{
+    background: white;
+    color: #222;
+}
+/* Contact fin....  */
+
+
+
+
+
+
+/* .......Where........*/
+
+.cartemaps{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 4rem;
+    
+
+}
+
+.cartemaps .carte img{
+    height: 450px;
+    width: 600px;
+    margin-left: 0rem;
+}
+
+
+
+.separatorcarte{
+    border-left: 3px solid black;
+    height: 550px;
+    display: inline-block;
+    margin-left: 3rem;
+    
+}
+
+.textecarte p{
+    margin: 0rem 3rem 0rem 3rem;
+    font-family:'Alegreya Sans', sans-serif;
+    font-size: 17px;
+    
+}
+ 
+/*........*/
+
+
+
+
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem 0rem 2rem 0rem;
+    line-height: 1.2rem;
+    font-weight: 1rem;
+    background: rgb(15, 15, 15);
+    height: 130px;
+    color: rgba(234, 234, 240, 0.719);
+
+}
+
+
+/*Footer*/

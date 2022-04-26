@@ -1,0 +1,174 @@
+
+nav{
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
+
+
+.logo a{
+   justify-content: center;
+    
+}
+
+.background1{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background: url(/images/pex.jpg);
+    background-size: cover;
+    height: 100vh;
+    min-width: 450px;
+   
+}
+
+.background1 .logo2 img{
+    width: 350px;
+    height: 100px;
+
+}
+
+
+
+.collab{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    flex-direction: column;
+    width: 450px;
+    
+
+}
+
+.Collab .official{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    margin: 2rem 1rem 1rem 2rem;
+}
+
+
+
+.histoire{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+    height: 700px;
+    width: 450px;
+
+}
+
+.histoire .history{
+    width: 400px;
+}
+
+
+.histoire .image img{
+    width: 400px;
+    height: 300px;
+}
+
+
+.carte{
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    height: 700px;
+    width: 450px;
+}
+
+.carte .image img{
+    width: 400px;
+    height: 300px;
+}
+
+.carte .cartetxt{
+
+    width: 400px;
+}
+
+
+
+/*contact*/
+
+
+form{
+    padding: 180px 0px 100px 0px;
+    min-height: 70vh;
+    line-height:2rem;
+
+}
+
+.contact-form-container{
+    max-width: 280px;
+    margin: auto;
+    
+}
+
+
+.contact-form-container textarea{
+    min-height: 80px;
+}
+
+/* ..... */
+
+
+
+/* Nous trouver */
+
+.cartemaps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 4rem;
+    
+}
+
+.cartemaps .carte{
+    width: 350px;
+    height: 300px;
+    margin: 13rem 0rem 0rem 0rem;
+   
+}
+
+.cartemaps .carte img{
+    width: 400px;
+    height: 350px;
+   
+}
+
+
+
+.textecarte p{
+    margin: 0rem 1rem 10rem 1rem;
+    
+}
+
+
+
+.separatorcarte{
+    border-left: none;
+}
+
+
+/* ****** */
+
+
+footer{
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    padding: 2rem 1rem 2rem 1rem;
+    min-width: 418px;
+    min-height: 200px;
+}
+
+footer p{
+    margin-top: 1.5rem;
+}
