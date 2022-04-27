@@ -1,1 +1,1 @@
-ErrorDocument 404 https://magnificent-sopapillas-d4def6.netlify.app/general
+ErrorDocument 404 /index.html
