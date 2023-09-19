@@ -44,24 +44,24 @@
 
 <section class="contact">
     <div class="contact-form-container">
-        <form action="">
+
+        <form id="contactform" action="#" method="post">
             
             <H1> Une question ? Contactez-nous !</H1>
-
-            <separator class="2"></separator>
 
             <label for="Name">Nom</label>
             <input type="name" name="name" id="name">
             <label for="email">Email</label>
             <input type="email" name="email" id="email">
-            <label for="Téléphone">Numéro de téléphone</label>
+            <label for="téléphone">Téléphone :</label>
             <input type="tel" name="tel" id="tel">
             <label  for="Message">Message</label>
             <textarea name="Message" id="Message" ></textarea>
 
-           <button class="btn-secondary">SOUMETTRE</button>
+           <button type="submit" class="btn-secondary" id="submit">SOUMETTRE</button>
 
         </form>
+
     </div>
 </section>
 
@@ -87,3 +87,7 @@
     
 </body>
 </html>
+
+<script src="app.js"></script>
+
+                

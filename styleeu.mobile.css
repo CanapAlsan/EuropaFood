@@ -45,14 +45,6 @@ nav{
 
 }
 
-.Collab .official{
-    display: flex;
-    flex-flow: wrap;
-    flex-direction: column;
-    margin: 2rem 1rem 1rem 2rem;
-}
-
-
 
 .histoire{
     display: flex;

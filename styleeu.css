@@ -169,7 +169,7 @@ section h3{
 }
 
 .separator2{
-    border: solid 0.3px rgba(234, 234, 240, 0.719);
+    border: solid 0.3px rgba(30, 30, 216, 0.719);
     margin-bottom: 1rem;
 }
 
@@ -194,29 +194,12 @@ section h3{
     justify-content: space-evenly;
 }
    
-.official{
-    margin: 2rem 25rem 0rem 25rem;
-    display: block;  
-    border-radius: 50% 20% / 10% 40%;
-    background-color:rgb(218, 213, 213);
-}
-
-.official h1{
-    padding-top: 1rem;
-    font-family:'Indie Flower', cursive;
-    font-size: 1.8rem;
-}
-
-
-
-
-
 
 
 
 .carte{
     background-color: #222;
-    color: rgba(240, 234, 234, 0.719);
+    color: rgb(240, 234, 234, 0.719);
     height: 450px;
     display: flex;
     align-items: center;
@@ -231,7 +214,7 @@ section h3{
 }
 
 .separator3{
-    border: solid 0.3px rgba(234, 234, 240, 0.719);
+    border: solid 0.3px rgba(30, 30, 216, 0.719);
     margin-bottom: 1rem;
 }
 
