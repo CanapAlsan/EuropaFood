@@ -83,14 +83,32 @@ nav ul li:hover{
     justify-content: center;
 }
 
-.separator{
-    border-radius: 15px;
-    margin-top: 0.8rem;
-    height: 7px;
-    background:rgb(43, 42, 42);
-    
-}
 
+.separator {
+    width: 0; /* Commencez avec une largeur de 0 */
+    height: 6px; /* Épaisseur du séparateur */
+    border-radius: 15px;
+    background-color: rgb(43, 42, 42); /* Couleur du séparateur */
+    position: relative;
+    top: 0.5em; /* Positionnez le séparateur sous le titre */
+    margin: 0 auto; /* Centrez le séparateur horizontalement */
+    animation: stretch 2s ease-in-out;
+    animation-fill-mode: forwards; /* Utilisation de l'animation "stretch" pendant 2 secondes */
+  }
+  
+  /* Animation pour étirer le séparateur depuis le centre à l'horizontal */
+@keyframes stretch {
+    0% {
+      width: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    100% {
+      width: 100%;
+      left: 0;
+      transform: translateX(0);
+    }
+}
 
 section h3{
     margin-top: 1.5rem;
